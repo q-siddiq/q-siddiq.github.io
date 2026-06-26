@@ -1,0 +1,144 @@
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f5f7fa;
+    color: #2c3e50;
+    margin 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+header, nav a, footer {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav a {                        /* links within "nav" container */
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 1.8em;
+    margin: 0 5px;
+    text-decoration: none;    /* removes underline */
+    color: white;           /* by default, links are blue */
+}
+
+.current {
+    background-color: #4a90e2;
+}
+
+nav a:hover {                  /*pseudo class */
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;            /* transition effect */
+    color: #4a90e2;
+}
+main {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 25px;
+}
+
+em {
+    color: #1f3a5f;
+    font-size: 1.1em;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+main div {
+    width: 500px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+}
+
+h2 {
+    color:#1f3a5f;
+    margin-top: 0;
+}
+
+#content {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+footer {
+    font-size: 1.1em;
+    color: #d6d6d6;
+    padding: 15px 0;
+}
+.csumb-logo {
+    width: 120px;
+    height: auto;
+    margin: 8px 0;
+}
+table {
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 1.3em;
+}
+td {
+    padding: 8px 15px;
+    font-size: 1.3em;
+}
+
+#table-header td strong {
+    color: white;
+}
+
+.table-row td strong {
+    color: #1f3a5f;
+}
+#table-header {
+    background-color: #1f3a5f;
+    color: white;
+}
+.table-row {
+    background-color: #dbe8f8;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.hobby {
+    color:#1f3a5f;
+    font-weight: bold;
+}
