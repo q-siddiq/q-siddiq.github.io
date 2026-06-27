@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    background-color: #f5f7fa;
+    color: #102a43;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #0b2545;
+    color: white;
+    padding: 20px 40px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+}
+
+header p {
+    margin: 25px 0 10;
+    color: #8ecae6;
+}
+
+nav {
+    background-color: #102a43;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    padding: 18px 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px orange solid;
+    font-size: 1.2em;
+    background-color: #1e6091;
+    transition: .9s;
+}
+.current {
+    background-color: #1e6091;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 40px;
+    background-color: white;
+}
+main figure {
+    margin: 0;
+}
+main img {
+    width: 520px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);    /* Adds a soft shadow around each card */
+}
+
+main div {
+    max-width: 450px;
+}
+main h2 {
+    font-size: 3em;
+    color: #0b2545;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+
+/* General sections */
+section {
+    padding: 35px 60px;
+    text-align: center;
+}
+
+aside {
+    padding: 35px 60px;
+}
+
+aside h2 {
+    color: #0b2545;
+    text-align: center;
+    font-size: 2em;
+}
+
+section h2 {
+    color: #0b2545;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Why section */
+.info-section {
+    background-color: #ffffff;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Applications */
+.applications {
+    background-color: #eef4fb;
+    padding: 50px 60px;
+    text-align: center;
+}
+
+.applications h2 {
+    color: #0b2545;
+    font-size: 2em;
+    margin-bottom: 35px;
+}
+
+.app-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.applications article {
+    background-color: white;
+    width: 230px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);     /* Adds a soft shadow around each card */
+}
+
+/* Move the card slightly upward when the mouse hovers over it */
+.applications article:hover {   
+    transform: translateY(-5px);        
+}
+
+.applications h3 {
+    color: #1e6091;
+}
+
+.applications article img {
+    width: 40%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Timeline and fact box */
+.timeline {
+    background-color: white;
+    max-width: 800px;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);     /* Add a soft shadow around each card */
+}
+
+.timeline ul {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.facts {
+    padding: 50px;
+    text-align: center;
+}
+
+.fact-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.fact-card {
+    background-color: white;
+    text-align: center;
+    width: 220px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transition: transform 0.3s;
+}
+
+.fact-card:hover {
+    transform: translateY(-6px);
+}
+
+.fact-card h3 {
+    color: #1e6091;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1e6091;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+.fact-card p {
+    line-height: 1.5;
+}
+
+/* Sources */
+.sources {
+    background-color: #eef4fb;
+    text-align: center;
+}
+
+.sources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sources a {
+    color: #1e6091;
+    font-weight: bold;
+}
+
+/* Table */
+table {
+    margin: 0px auto;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.comparison {
+    text-align: center;
+    padding: 40px 60px;
+}
+.comaprison table {
+    text-align: center;
+}
+
+td {
+    padding: 8px 15px;
+    font-size: 1.3em;
+}
+
+#table-header td strong {
+    color: white;
+}
+
+.table-row td strong {
+    color: #1e6091;
+}
+#table-header {
+    background-color: #0b2545;
+    color: white;
+}
+.table-row {
+    background-color: #dbe8f8;
+}
+
+ /* Video-section */
+ .video-section {
+    background-color: white;
+    text-align: center;
+    padding: 40px 60px;
+}
+
+.video-section h2 {
+    color: #0b2545;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.video-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.video-section a {
+    color: #1e6091;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.video-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #0b2545;
+    color: #d6e2ef;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+.csumb-logo {
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+}
